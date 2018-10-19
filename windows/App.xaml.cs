@@ -15,6 +15,10 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Push;
+
 namespace CallRemote
 {
     /// <summary>
@@ -30,6 +34,7 @@ namespace CallRemote
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            AppCenter.Start("962fd6e9-f4e5-4362-96c9-73a64a9f137b", typeof(Analytics));
         }
 
         /// <summary>
