@@ -1,9 +1,0 @@
-# JetBrains project files
-.idea
-
-# NPM
-node_modules
-
-# NativeScript application
-/dist
-template/app/App_Resources/Android/google-services.json
